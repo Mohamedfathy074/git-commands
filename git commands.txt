@@ -1,0 +1,58 @@
+*[cd /]--->back to origin path in cmder
+*[cd c/users/moham/desktop]--->go to desktop in git bsh
+*[touch file_1]--->create file_1
+*[echo file1_>hello]--->create file file_1 and write hello into it
+*[mkdir test]--->make floder named test
+*[ls]--->show the list in folder
+*[git config --global user.name "fathy"]--->set the user name
+*[git config --gloval user.email "mohamedfathy0074@gmail.com"]--->set the email
+*[git config --global --unset user.name]--->unset the username
+*[git config --global --unset user.email]--->unset the email
+*[git config -l]--->display list of configuration
+*[git config --global --edit]--->go to edit cofiguration like color and alising
+*[git config --global alias.st status]--->change git status to git st for easy
+*[git]--->show all commands with git
+*[git status]--->show me if there are files untracked or all up to date
+*[git add index.html]--->add file index.html to staging area
+*[git add index.html *]--->add all files that untracked in staging area
+*[git commit -m "explain"]--->commit the files into local repo
+*[git push origin branch_name]--->upload files int server or github
+*[git pull origin]--->pull files from server to work directory
+*[git restore --staged file_name]--->restore file from staging area and become untracked
+*[git restore --staged *]--->restore all files from staging area to be untracked
+*[git merge branch_name]--->merge branch_name with origin
+*[git checkout -b hello]--->build branch called hello and switch into it
+*[git branch hello/main]--->swith to branch hello/main
+*[ssh-keygen -t rsa -b 4096 -C "mohamedfathy0074@gmail.com"]--->generate public key
+   .(-t)--->type of algorithm
+   .(-b)--->number of bits
+   .(-C)---> c capital wrote in its double qoutes email
+*[cat]--->display file content like--->cat ~/.ssh/id_rsa.pub 
+*[ssh -T git@github.com]--->test ssh connection
+*[git stash]--->put files into temporary location
+*[git stash list]--->list all files in stash
+*[git stash pop]--->cut last file added in stash
+*[git stash pop stash@{id}]--->cut file in stash that stored in location 2
+*[git stash apply]--->copy last file in stash
+*[git stash save "something"]--->save in stash by sectenses to decelation what inside
+*[git stash drop]--->delete last file added in stash
+*[git stash drop stash@{id}]--->delete file in stash stored in location 3
+*[git stash show stash@{id}]--->show what in specific id
+*[git stash clear]--->delete all files in stash
+*[code file_name]--->go to GUI like visual studio code with file_name
+*[git clean -n]--->display flies that may delete because may be i want file choose to not remove
+*[git clean -f]--->delete all files
+*[git log]--->display the history of repo
+*[head->]--->pointer point to last operation]
+   .to delete last operation i need to make the pointer point to next operation to delete back
+*[git reset --hard hash]--->it make the pointer point to hash and delete all back
+*[git push origin main --force]--->force update to make files up to date in server
+*[touch .gitignore]--->make file to ignore any files or directories i want
+*[code .gitignore]--->go to ide like visual studio code to write an exciption files or directories i want ignore from appearing
+*[git add -f file.ext]--->add the file even if the file is in .gitignore
+*[git tag]--->display all tags that i generated
+*[git tag v.10 1234535safdc]--->lightweight tag that generated tags with hash only
+*[git tag -a v2.0 -m "message"]--->annotated tag that generated tag with message 
+*[git tag -l "v1.*"]--->display list of all tags that contain 1.
+*[git tag -d v1.0]--->delete tag that named v1.0 locally
+*[git push origin --delete v1.0]--->delete tag that named v1.0 remotely
